@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="network_secutiry:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>network_secutiry</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="network_secutiry-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="network_secutiry:war exploded" />
+    </root>
+  </artifact>
+</component>
